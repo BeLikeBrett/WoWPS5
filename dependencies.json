@@ -1,0 +1,33 @@
+{
+  "PS5_VulkanTemplate": "fdd41492047b5c02646760f3d705634fb658f743",
+  "PS5_Vulkan": "4271e2e309d9a7eea3a893f5b94427bb78e586ed",
+  "PS5_Mesa": "15a5e9933e14f6493a7853e8cf1df973dd093eeb",
+  "PS5_PayloadSDK": "adc8dd795ada7bf696cd98748aae463a3970ffbb",
+  "glm": "1ad55c5016339b83b7eec98c31007e0aee57d2bf",
+  "driverSDK": "95c08f27386fc698f6bbe21dde3030140a41d10b",
+  "klogsrv": "c1b64bd3d3b069a09b1a173a82858cba97a5656f",
+  "hostPackages": [
+    {
+      "url": "https://geo.mirror.pkgbuild.com/extra/os/x86_64/spirv-llvm-translator-23.1.2-1-x86_64.pkg.tar.zst",
+      "sha256": "5851c9464da258d38b94b5210cf0f5ca43e855e8c63cf1ecf0c78a032fbd127c"
+    },
+    {
+      "url": "https://geo.mirror.pkgbuild.com/extra/os/x86_64/libclc-23.1.1-2-any.pkg.tar.zst",
+      "sha256": "0016e49eddbd88a6a95e47bc2b7e08b883d41c52a1afccca3e0c5030b5ffd525"
+    }
+  ],
+  "researchOnly": {
+    "vkd3d-proton": {
+      "revision": "31d1f89ca5b3f2fd3b6f025c8e6f73ed3eaa852b",
+      "url": "https://github.com/HansKristian-Work/vkd3d-proton",
+      "builtForPS5": false
+    },
+    "wine": {
+      "url": "https://github.com/wine-mirror/wine",
+      "revision": "455e3509b98a6919fd4ad1def4803e08c41c03b2",
+      "license": "LGPL-2.1-or-later",
+      "windowsCoreModulesBuilt": true,
+      "nativePS5RuntimeBuilt": false
+    }
+  }
+}

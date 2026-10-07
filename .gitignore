@@ -1,0 +1,28 @@
+# Local tools, dependencies and generated artifacts
+.deps/
+work/
+build/
+dist/
+vendor/
+.director-runs/
+klog/
+*.log
+
+# Private runtime, account and game material
+.env
+.env.*
+!.env.example
+local/
+private/
+client/
+game-data/
+wineprefix/
+prefixes/
+credentials*
+game-sent.json
+tokens*
+*.dmp
+
+# Python tooling caches
+__pycache__/
+*.py[cod]
